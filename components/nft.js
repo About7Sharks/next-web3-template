@@ -8,7 +8,7 @@ export default function NFT(){
     <div className={styles.card}>
       <h2>Collect 🖼️</h2>
       <p>Opensea.io is a permisionless auction place. View, Sell, 
-        and Buy NFT's on the open market.
+        and Buy {"NFT's"} on the open market.
       </p>
       <br/><br/>
       <Button href={`https://opensea.io/${account}`} >Explore</Button>

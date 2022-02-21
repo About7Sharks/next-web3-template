@@ -17,8 +17,8 @@ export default function Home() {
       </Head>
       <Wallet/>
       <main className={styles.main}>
-        <img
-          src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmir-s3-cdn-cf.behance.net%2Fprojects%2Fmax_808%2Fbef42232486227.Y3JvcCw4OTgsNzAxLDAsNzc.png&f=1&nofb=1'
+        <Image
+          src='/wizard.png'
           alt="Picture of the author"
           width={200}
           height={200}
