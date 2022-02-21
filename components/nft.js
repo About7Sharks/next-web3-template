@@ -7,7 +7,7 @@ export default function NFT(){
   return (
     <div className={styles.card}>
       <h2>Collect 🖼️</h2>
-      <p>Opensea.io is a permisionless auction place. View, Sell, 
+      <p>Opensea.io is a permissionless auction place. View, Sell, 
         and Buy {"NFT's"} on the open market.
       </p>
       <br/><br/>
