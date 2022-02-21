@@ -3,6 +3,7 @@
 }
 
 .main {
+  min-width: none;
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -73,7 +74,6 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
 }
 
 .card:hover,

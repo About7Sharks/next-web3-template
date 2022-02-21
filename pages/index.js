@@ -1,9 +1,10 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Wallet from '../components/wallet'
 import Footer from '../components/footer'
-import LogoutHomePage from '../components/logoutHomePage'
-import LoginHomePage from '../components/loginHomePage'
+import LogoutHomePage from '../components/loggedOutHomePage'
+import LoginHomePage from '../components/loggedInHomePage'
 import { useWeb3React } from '@web3-react/core'
 export default function Home() {
   const {active} = useWeb3React()
@@ -16,8 +17,14 @@ export default function Home() {
       </Head>
       <Wallet/>
       <main className={styles.main}>
+        <img
+          src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmir-s3-cdn-cf.behance.net%2Fprojects%2Fmax_808%2Fbef42232486227.Y3JvcCw4OTgsNzAxLDAsNzc.png&f=1&nofb=1'
+          alt="Picture of the author"
+          width={200}
+          height={200}
+        />
         <h1 className={styles.title}>
-          Welcome to <a href="./">Web3</a>
+          Welcome to  <a href="./">Web3</a> 
         </h1>
       {active?<LoginHomePage/>:<LogoutHomePage/>}
       </main>
